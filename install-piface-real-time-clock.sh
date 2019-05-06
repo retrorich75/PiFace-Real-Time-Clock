@@ -56,7 +56,7 @@ start_on_boot() {
 # Provides:          pifacertc
 # Required-Start:    udev mountkernfs \$remote_fs raspi-config
 # Required-Stop:
-# Default-Start:     S
+# Default-Start:     S 2 3 4 5
 # Default-Stop:
 # Short-Description: Add the PiFace RTC
 # Description:       Add the PiFace RTC
